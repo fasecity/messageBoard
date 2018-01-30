@@ -15,7 +15,7 @@ namespace MessageBoardBackend.Controllers
     public class StaffController : Controller
     {
         //endpoint to the service alerts for staff
-        string endpoint = "https://api.namara.io/v0/data_sets/58419648-dec7-4690-b577-fe786c54797c/data/en-3?geometry_format=wkt&api_key=fd890e0680f35954c1da532a8e7580bb3fca4012ed01130bea47bdc830b16b05";
+        string endpoint = "yourapi";
 
         //persisted data in memory
         List<Staff> StaffAlertsList = new List<Staff>();
